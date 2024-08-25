@@ -1,0 +1,85 @@
+/* body {
+  background-color: black;
+} */
+
+.header {
+  /* display: flex;
+  align-items: center;
+ max-width: fit-content;
+ margin-left: auto;
+ margin-right: auto; */
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ margin-top: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  /* font-weight: bold; */
+  /* color: white; */
+}
+
+button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  /* padding: 10px; */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: rgb(251, 125, 14);
+}
+
+.add-button:hover {
+  background-color: rgb(185, 86, 0);
+}
+
+.delete-button:hover {
+  background-color: rgba(250, 55, 55, 0.636);
+}
+
+.edit-button:hover {
+  background-color: rgb(36, 240, 36);
+}
+
+input[type='text']{
+  font-size: 1.3rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.81);
+  padding: 5px;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 5px;
+  /* background-color: rgba(247, 241, 241, 0.852); */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button, .edit-button {
+  padding: 5px;
+  font-size: 1.4rem;
+  margin-left: 5px;
+}
+/* .add-button {
+  margin-left: 20px;
+}
+
+.test {
+  color: Black;
+} */
