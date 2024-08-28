@@ -10,3 +10,11 @@ const router = express.Router()
 
 router.route(`/tasks`).post(listController.createTask)
 
+//route for post to make a new to do
+
+//a get to retrieve it
+
+//a post to edit
+
+//one to delete
+

@@ -101,7 +101,9 @@ function ToDoList() {
         <ol>
           {tasks.map((task, index) => 
             <li key={index}>
+            {/* set up a ternary , that checks if the taskIndex is the same as the index chosen*/}
               {taskIndex === index ? (
+                //<> is used to create a new section without having to use another <div> tag
                 <>
                   <input
                     type="text"
